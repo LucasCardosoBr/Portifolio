@@ -3,79 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Lucas Cardoso - Portfólio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">Lucas Cardoso</div>
             <ul>
-                <img src="https://www.faesa.br/hubfs/F5024-21C_50anos_branco_marca-1.png" width="150" height="40"> 
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h1>Olá, eu sou Lucas Cardoso Peixoto Fontoura</h1>
-            <p>Desenvolvedor Web Criativo</p>
-            <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/11186876-simbolo-de-foto-de-perfil-masculino-vetor.jpg" width="200" height="200" alt="Sua foto ou ilustração"> 
-        </section>
-
-        <section id="about">
-            <h2>Sobre Mim</h2>
-            <p>Sou um desenvolvedor web apaixonado por criar experiências digitais. Com habilidades em HTML, CSS e Java, estou sempre buscando aprender e crescer na minha carreira.</p>
-            <div class="skills">
-                <div class="skill"><i class="fab fa-html5"></i> HTML</div>
-                <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
-                <div class="skill"><i class="fab fa-js"></i> Java</div>
+        <section id="inicio">
+            <div class="intro">
+                <h1>Olá</h1>
+                <h2>Eu sou <span class="highlight">Lucas cardoso</span></h2>
+                <h3>Estudante de Programação</h3>
+            </div>
+            <div class="profile-image">
+                <img src="images/foto.jpg" alt="Foto de perfil">
             </div>
         </section>
 
-        <section id="projects">
+        <section id="sobre">
+            <h4>Sobre mim</h4>
+            <p>Sou um aluno da faesa que cursa Análise e Desenvolvimento de Sistemas, com paixão por criar soluções inovadoras e eficientes. Estou começando a ter experiência em HTML, CSS e JavaScript, e estou constantemente em busca de novas tecnologias para expandir o meu conhecimento e aprimorar as minhas habilidades.</p>
+        </section>
+
+        <section id="projetos">
             <h2>Meus Projetos</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="/placeholder.svg?height=150&width=250" alt="Projeto 1">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição breve do projeto 1.</p>
-                    <a href="#" class="btn">Ver mais</a>
+            <p>Aqui você encontrará alguns dos meus trabalhos selecionados. Explore para saber mais sobre mim. (como eu não ainda projetos planejados essa parte ficará em branco)</p>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="images/placeholder.webp" alt="Projeto 01">
+                    <h3>Projeto 01</h3>
+                    <p>Descrição do projeto.</p>
                 </div>
-                <div class="project-card">
-                    <img src="/placeholder.svg?height=150&width=250" alt="Projeto 2">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição breve do projeto 2.</p>
-                    <a href="#" class="btn">Ver mais</a>
+                <div class="project">
+                    <img src="images/placeholder.webp" alt="Projeto 02">
+                    <h3>Projeto 02</h3>
+                    <p>Descrição do projeto.</p>
                 </div>
-                <div class="project-card">
-                    <img src="/placeholder.svg?height=150&width=250" alt="Projeto 3">
-                    <h3>Projeto 3</h3>
-                    <p>Descrição breve do projeto 3.</p>
-                    <a href="#" class="btn">Ver mais</a>
+                <div class="project">
+                    <img src="images/placeholder.webp" alt="Projeto 03">
+                    <h3>Projeto 03</h3>
+                    <p>Descrição do projeto.</p>
+                </div>
+                <div class="project">
+                    <img src="images/placeholder.webp" alt="Projeto 04">
+                    <h3>Projeto 04</h3>
+                    <p>Descrição do projeto.</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Entre em Contato</h2>
-            <form id="contact-form">
-                <input type="text" id="name" name="name" placeholder="Seu nome" required>
-                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-                <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
+        <section id="contatos">
+            <h2>Contatos</h2>
+            <p>Se você é um empreendedor que precisa de um desenvolvedor? Tenho as habilidades técnicas para dar vida aos seus projetos. Entre em contato!</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/lucas-cardoso-1b03b721b/" target="_blank"><img src="images/LinkedIn.jpg" alt="LinkedIn"></a>
+                <a href="fontouralpc@gmail.com" target="_blank"><img src="images/Email.png" alt="Gmail"></a>
+                <a href="https://github.com/LucasCardosoBr" target="_blank"><img src="images/Github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/lucascp_oficial/" target="_blank"><img src="images/Instagram.webp" alt="Instagram"></a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 [Lucas Cardoso]. Todos os direitos reservados.</p>
-        <a href="mailto:fontouralpc@gmail.com">Email</a>
-        <a href="https://github.com/LucasCardosoBr" target="_blank">GitHub</a>
+        <p>&copy; 2023 Lucas Cardoso. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
