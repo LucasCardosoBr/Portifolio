@@ -1,4 +1,5 @@
 # portifolio
 
 Este codigo e para o meu portifolio, porem ainda esta com pouco conteúdo
-![foto](https://github.com/user-attachments/assets/c927a0c6-6821-435b-9072-c3c641cda634)
+
+![Captura de tela 2025-03-16 075213](https://github.com/user-attachments/assets/5e9a25ef-5ec6-49c1-8a6d-c20d4bcaa4c5)
