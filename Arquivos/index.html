@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfólio de Lucas Cardoso, estudante de Análise e Desenvolvimento de Sistemas.">
+
+    <meta name="author" content="Lucas Cardoso">
+
+    <title>Lucas Cardoso | Desenvolvedor</title>
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                Lucas<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a class="nav-link active" href="#inicio">Início</a></li>
+                <li><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                <li><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li><a class="nav-link" href="#formacao">Formação</a></li>
+                <li><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="hero-intro">Olá, eu sou</p>
+
+                    <h1>
+                        Lucas <span>Cardoso</span>
+                    </h1>
+
+                    <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
+
+                    <p class="hero-description">
+                        Buscando oportunidades para desenvolver minhas habilidades
+                        em programação, tecnologia e desenvolvimento de sistemas.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="btn btn-primary">
+                            <i class="fa-solid fa-code"></i>
+                            Ver projetos
+                        </a>
+
+                        <a href="#contato" class="btn btn-secondary">
+                            <i class="fa-solid fa-envelope"></i>
+                            Entre em contato
+                        </a>
+                    </div>
+
+                    <div class="hero-social">
+                        <a
+                            href="https://github.com/LucasCardosoBr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="#contato"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a
+                            href="#contato"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-border">
+                        <img
+                            src="images/foto.jpg"
+                            alt="Foto de Lucas Cardoso"
+                        >
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="about section" id="sobre">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Conheça um pouco</p>
+                    <h2>Sobre <span>mim</span></h2>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <p>
+                            Sou estudante de Tecnologia em Análise e Desenvolvimento
+                            de Sistemas, interessado em programação e desenvolvimento
+                            de software.
+                        </p>
+
+                        <p>
+                            Tenho conhecimentos em Java, Python, JavaScript, HTML e CSS,
+                            além de experiência acadêmica com bancos de dados,
+                            modelagem de sistemas e desenvolvimento de projetos web.
+                        </p>
+
+                        <p>
+                            Busco uma oportunidade de estágio ou posição júnior para
+                            aplicar meus conhecimentos, aprender novas tecnologias e
+                            contribuir com a equipe.
+                        </p>
+                    </div>
+
+                    <div class="about-info">
+
+                        <div class="info-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+
+                            <div>
+                                <strong>Formação</strong>
+                                <span>Análise e Desenvolvimento de Sistemas</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <i class="fa-solid fa-code"></i>
+
+                            <div>
+                                <strong>Área de interesse</strong>
+                                <span>Desenvolvimento de Software</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <div>
+                                <strong>Localização</strong>
+                                <span>Espírito Santo, Brasil</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section class="skills section" id="habilidades">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>O que eu sei</p>
+                    <h2>Minhas <span>habilidades</span></h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <i class="fa-brands fa-java"></i>
+                        <h3>Java</h3>
+                        <p>Programação orientada a objetos e desenvolvimento de sistemas.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Lógica de programação, automação e desenvolvimento.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Desenvolvimento de páginas e aplicações web interativas.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML & CSS</h3>
+                        <p>Criação de interfaces responsivas e acessíveis.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROJETOS -->
+        <section class="projects section" id="projetos">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Meu trabalho</p>
+                    <h2>Meus <span>projetos</span></h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/projeto-cores.jpg"
+                                alt="Jogo das Cores"
+                                loading="lazy"
+                            >
+
+                            <div class="project-overlay">
+                                <a
+                                    href="#"
+                                    aria-label="Visualizar Jogo das Cores"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">Projeto 01</span>
+
+                            <h3>Jogo das Cores</h3>
+
+                            <p>
+                                Jogo desenvolvido para praticar JavaScript,
+                                manipulação do DOM e lógica de programação.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/projeto-banco-sangue.jpg"
+                                alt="Sistema de Banco de Sangue"
+                                loading="lazy"
+                            >
+
+                            <div class="project-overlay">
+                                <a
+                                    href="#"
+                                    aria-label="Visualizar Sistema de Banco de Sangue"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">Projeto 02</span>
+
+                            <h3>Banco de Sangue</h3>
+
+                            <p>
+                                Sistema desenvolvido em Python para trabalhar
+                                com dados de doadores e hospitais.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>PySimpleGUI</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/projeto-concessionaria.jpg"
+                                alt="Sistema de Concessionária"
+                                loading="lazy"
+                            >
+
+                            <div class="project-overlay">
+                                <a
+                                    href="#"
+                                    aria-label="Visualizar Sistema de Concessionária"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">Projeto 03</span>
+
+                            <h3>Concessionária</h3>
+
+                            <p>
+                                Sistema em Java para gerenciamento de veículos
+                                utilizando programação orientada a objetos.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>POO</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/projeto-lua.jpg"
+                                alt="Animação Lua e Terra"
+                                loading="lazy"
+                            >
+
+                            <div class="project-overlay">
+                                <a
+                                    href="#"
+                                    aria-label="Visualizar Animação Lua e Terra"
+                                >
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-number">Projeto 04</span>
+
+                            <h3>Lua e Terra</h3>
+
+                            <p>
+                                Animação web desenvolvida para praticar CSS,
+                                posicionamento e animações.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FORMAÇÃO -->
+        <section class="formation section" id="formacao">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Minha trajetória</p>
+                    <h2>Formação <span>acadêmica</span></h2>
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+
+                        <div class="timeline-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <div class="timeline-content">
+                            <span>Em andamento</span>
+
+                            <h3>
+                                Tecnologia em Análise e Desenvolvimento de Sistemas
+                            </h3>
+
+                            <h4>FAESA</h4>
+
+                            <p>
+                                Formação voltada para desenvolvimento de software,
+                                banco de dados, engenharia de software e análise
+                                de sistemas.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CURRÍCULO -->
+        <section class="resume section">
+            <div class="container">
+
+                <div class="resume-box">
+
+                    <div>
+                        <p class="resume-label">Quer conhecer mais?</p>
+
+                        <h2>Confira meu currículo</h2>
+
+                        <p>
+                            Veja minha formação, conhecimentos e experiências.
+                        </p>
+                    </div>
+
+                    <a
+                        href="curriculo.pdf"
+                        class="btn btn-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-solid fa-file-pdf"></i>
+                        Abrir currículo
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="contact section" id="contato">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Vamos conversar</p>
+                    <h2>Entre em <span>contato</span></h2>
+                </div>
+
+                <div class="contact-content">
+
+                    <div class="contact-text">
+                        <h3>Vamos trabalhar juntos?</h3>
+
+                        <p>
+                            Estou aberto a oportunidades de estágio e posições
+                            júnior na área de tecnologia e desenvolvimento.
+                        </p>
+
+                        <p>
+                            Caso queira entrar em contato, utilize uma das
+                            opções ao lado.
+                        </p>
+                    </div>
+
+                    <div class="contact-links">
+
+                        <a
+                            class="contact-card"
+                            href="mailto:fontouralpc@gmail.com"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <div>
+                                <span>E-mail</span>
+                                <strong>fontouralpc@gmail.com</strong>
+                            </div>
+                        </a>
+
+                        <a
+                            class="contact-card"
+                            href="https://github.com/LucasCardosoBr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-github"></i>
+
+                            <div>
+                                <span>GitHub</span>
+                                <strong>LucasCardosoBr</strong>
+                            </div>
+                        </a>
+
+                        <a
+                            class="contact-card"
+                            href="#"
+                        >
+                            <i class="fa-brands fa-linkedin"></i>
+
+                            <div>
+                                <span>LinkedIn</span>
+                                <strong>Meu perfil</strong>
+                            </div>
+                        </a>
+
+                        <a
+                            class="contact-card"
+                            href="#"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+
+                            <div>
+                                <span>Instagram</span>
+                                <strong>Meu perfil</strong>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <p>
+                © <span id="current-year"></span> Lucas Cardoso. Todos os direitos reservados.
+            </p>
+
+            <a href="#inicio" aria-label="Voltar ao início">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
